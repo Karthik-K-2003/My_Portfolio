@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#role {
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #60a5fa;
+  transition: opacity 0.5s ease-in-out;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  50% {
+    border-color: #60a5fa;
+  }
+
+  51%,
+  100% {
+    border-color: transparent;
+  }
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 460px;
+  /* background-color: #0b1630; */
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#projects .flex {
+  align-items: stretch;
+}
+
+.project-card span {
+  background-color: #16254f;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+} 
+
+.project-card span:hover {
+  border: 1px solid #60a5fa;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(96, 165, 250, 0.6);
+}
+
+.tech-tag {
+  background-color: #16254f;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.tech-tag:hover {
+  border-color: teal;
+  background-color: rgba(56, 189, 248, 0.15);
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 128, 128, 0.6);
+}
+
+@media (max-width: 1280px) {
+  .tech-tag {
+    border-color: teal !important;
+    background-color: rgba(56, 189, 248, 0.15) !important;
+    box-shadow: 0 0 12px rgba(96, 165, 250, 0.5) !important;
+    transform: scale(1.05) !important;
+  }
+}
+
+.custom-list li::marker {
+  color: cyan;
+}
