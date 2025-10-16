@@ -88,7 +88,8 @@
 
 
     <!-- Skills Section -->
-    <section id="skills" class="min-h-screen flex justify-center items-center bg-gradient-to-b from-[#08142e] to-[#0a1a3a] text-white px-6 py-16">
+    <section id="skills"
+        class="min-h-screen flex justify-center items-center bg-gradient-to-b from-[#08142e] to-[#0a1a3a] text-white px-6 py-16">
         <div class="bg-[#0D1B3D] rounded-2xl shadow-2xl p-10 w-full max-w-5xl border border-gray-700">
 
             <h2 class="text-4xl font-bold text-center mb-12">Technical Skills</h2>
@@ -174,7 +175,9 @@
                 class="project-card opacity-0 translate-y-8 bg-[#0f1c3d] rounded-2xl p-5 w-80 hover:scale-105 hover:shadow-xl hover:shadow-white/10 transition-transform duration-300">
 
                 <div>
-                    <img src="expense.jpg" alt="Expense Tracker" class="rounded-lg mb-4 w-full h-44 object-cover" />
+                    <div class="project-image-container mb-4">
+                        <img src="assets/Expense.jpeg" alt="Expense Tracker" class="project-image" />
+                    </div>
                     <h3 class="text-xl font-semibold mb-2">Expense Tracker</h3>
                     <p class="text-gray-300 text-sm mb-4">
                         A web-based application that allows users to track daily expenses, analyze spending habits, and
@@ -197,8 +200,9 @@
                 class="project-card opacity-0 translate-y-8 bg-[#0f1c3d] rounded-2xl p-5 w-80 hover:scale-105 hover:shadow-xl hover:shadow-white/10 transition-transform duration-300">
 
                 <div>
-                    <img src="wasteyolo.jpg" alt="Waste Classification using YOLO"
-                        class="rounded-lg mb-4 w-full h-44 object-cover" />
+                    <div class="project-image-container mb-4">
+                        <img src="assets/waste.jpg" alt="Waste Classification using YOLO" class="project-image" />
+                    </div>
                     <h3 class="text-xl font-semibold mb-2">Waste Classification using YOLO</h3>
                     <p class="text-gray-300 text-sm mb-4">
                         An AI-based project that classifies waste materials like plastic, metal, and organic using the
@@ -279,7 +283,7 @@
         © 2025 Karthik | All Rights Reserved
     </footer>
 
-    
+
     <script>
         // Mobile Menu Toggle
         const menuBtn = document.getElementById('menuBtn');
