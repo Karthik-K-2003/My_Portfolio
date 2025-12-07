@@ -31,7 +31,7 @@ It showcases my projects, skills, and includes a working **contact form** that s
 - Composer (dependency manager)
 - Gmail SMTP (for sending messages)
 
----
+```bash
 ## 📁 Folder Structure
 Karthik_Portfolio/
 │
@@ -42,8 +42,10 @@ Karthik_Portfolio/
 ├── contact.php # Contact form backend
 ├── portfolio.html # Main portfolio page
 └── style.css # Styling for the entire website
+```
 
 ## ⚙️ Setup Instructions
+```bash
 1 Clone the repository
 git clone https://github.com/yourusername/Karthik_Portfolio.git
 cd Karthik_Portfolio
@@ -63,6 +65,7 @@ Visit in your browser:
 
 5️ Test Contact Form
 Fill the contact form — if configured correctly, you’ll receive an email at your Gmail inbox 🎉
+```
 
 🖼️ Screenshots:
 <img width="1885" height="864" alt="Screenshot 2025-10-15 121420" src="https://github.com/user-attachments/assets/5cf46145-8d25-4a72-b9a0-b1a8f016c307" />
