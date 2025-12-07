@@ -1,12 +1,10 @@
 # 🌐 Karthik's Portfolio Website
-
 A modern and responsive personal portfolio website built using **HTML, TaiwindCSS, CSS, PHP, and PHPMailer**.  
 It showcases my projects, skills, and includes a working **contact form** that sends emails securely using Gmail SMTP.
 
 ---
 
 ## 🚀 Features
-
 - 🖥️ Fully responsive design (works on mobile, tablet, and desktop)
 - 💼 Portfolio showcase with project cards
 - 📬 Contact form integrated with **PHPMailer** for email delivery
@@ -31,8 +29,9 @@ It showcases my projects, skills, and includes a working **contact form** that s
 - Composer (dependency manager)
 - Gmail SMTP (for sending messages)
 
-```bash
+
 ## 📁 Folder Structure
+```bash
 Karthik_Portfolio/
 │
 ├── assets/ # Images, icons, etc.
@@ -45,25 +44,33 @@ Karthik_Portfolio/
 ```
 
 ## ⚙️ Setup Instructions
-```bash
 1 Clone the repository
+```bash
 git clone https://github.com/yourusername/Karthik_Portfolio.git
 cd Karthik_Portfolio
+```
 
 2 Install Dependencies
+```bash
 composer install
+```
 
 3 Configure environment variables(Create a .env file in the root directory:)
+```bash
 GMAIL_USER=your_email@gmail.com
 GMAIL_PASS=your_app_password
+```
 
 4 Run locally using XAMPP
+```bash
 Move the folder to C:\xampp\htdocs\
 Start Apache in XAMPP Control Panel
 Visit in your browser:
 👉 http://localhost/Karthik_Portfolio/portfolio.html
+```
 
 5️ Test Contact Form
+```bash
 Fill the contact form — if configured correctly, you’ll receive an email at your Gmail inbox 🎉
 ```
 
